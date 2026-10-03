@@ -1,0 +1,8 @@
+category,component,details,quantity,status,notes
+controller,Raspberry Pi Zero 2 W,Historical controller platform,TBD,to-verify,Confirm current hardware revision
+power,DC-DC buck converter,24 V to 5 V for Raspberry Pi,TBD,to-verify,Confirm input range output current and isolation
+connector,GX12-6,Historical connector towards ventilation equipment,TBD,to-verify,Confirm pin assignment and current revision
+control,Relay module,Additional relay channels planned for valve and actuator control,TBD,planned,Confirm coil voltage contact ratings and channel count
+valve,Common valve,Planned alternative to failed CO2-controlled demand valve,TBD,planned,Select and document exact model and operating voltage
+actuator,Belimo actuator,Planned valve actuator,TBD,planned,Select and document exact model control signal and power requirements
+enclosure,Controller enclosure,Larger enclosure planned for expanded relay count,TBD,planned,Confirm dimensions rating and current revision
