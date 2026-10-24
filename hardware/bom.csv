@@ -1,8 +1,17 @@
-category,component,details,quantity,status,notes
-controller,Raspberry Pi Zero 2 W,Historical controller platform,TBD,to-verify,Confirm current hardware revision
-power,DC-DC buck converter,24 V to 5 V for Raspberry Pi,TBD,to-verify,Confirm input range output current and isolation
-connector,GX12-6,Historical connector towards ventilation equipment,TBD,to-verify,Confirm pin assignment and current revision
-control,Relay module,Additional relay channels planned for valve and actuator control,TBD,planned,Confirm coil voltage contact ratings and channel count
-valve,Common valve,Planned alternative to failed CO2-controlled demand valve,TBD,planned,Select and document exact model and operating voltage
-actuator,Belimo actuator,Planned valve actuator,TBD,planned,Select and document exact model control signal and power requirements
-enclosure,Controller enclosure,Larger enclosure planned for expanded relay count,TBD,planned,Confirm dimensions rating and current revision
+category,component,manufacturer,part_number,details,quantity,status,notes,url
+controller,Raspberry Pi Zero 2 W, , ,Controller platform,1,required,Confirm current hardware revision,
+thermal,Waveshare aluminium heatsink,Waveshare,,Thermal management,1,required,For Raspberry Pi Zero 2 W,https://elektronicavoorjou.nl/product/heatsink-raspberry-pi-zero/
+controller,eBUS adapter, , , , 1, , ,https://adapter.ebusd.eu/v5/index.en.html
+power,DC-DC buck converter, , ,24 V to 5 V for Raspberry Pi,1,,Confirm input range output current and isolation,https://www.tinytronics.nl/nl/power/spanningsconverters/buck-(step-down)-converters/dc-dc-step-down-buck-converter-2a-5v-met-usb
+power,Panel-Mount Fuse Holders with screw cap, , ,,1, , ,https://elektronica-online.nl/product/zekeringhouder-4590
+power,Glass fuse 5x20mm 1A fast, , ,,1, , ,https://elektronica-online.nl/product/10-zekeringen-1a-snel-5x20--4411
+connector,GX12-6, , ,Connector towards HRU,1,required,Confirm pin assignment and current revision,https://www.tinytronics.nl/en/cables-and-connectors/connectors/aviation-style/gx12/gx12-6-connector-set
+connector,GX12-3, , ,Connector towards Belimo actuator,4,required,Confirm pin assignment and current revision,https://www.tinytronics.nl/en/cables-and-connectors/connectors/aviation-style/gx12/gx12-3-connector-set
+connector,GX12-2, , ,Connector for power and ebus signal,2,required,Confirm pin assignment and current revision,https://www.tinytronics.nl/en/cables-and-connectors/connectors/aviation-style/gx12/gx12-2-connector-set
+control,5V 8-channel relay module,,,,1,required,,https://www.berrybase.de/en/5v-8-channel-relay-module-with-definable-switching-signal-high-low
+control,5V 4-channel relay module,,,,1,required,,https://www.berrybase.de/en/5v-4-channel-relay-module-with-definable-switching-signal-high-low
+actuator,Belimo actuator, , ,Planned valve actuator,4,,Select and document exact model control signal and power requirements,https://www.berrybase.de/en/5v-4-channel-relay-module-with-definable-switching-signal-high-low
+sensor,Shelly BLU H&T, , , , 1,required, ,https://www.shelly.com/products/shelly-blu-h-t-ivory
+enclosure,Kradex enclosure,Kradex,,Larger enclosure planned for expanded relay count,1,required,176 x 126 x 57 mm IP65,
+assembly,Wago clamps,,,Terminal connections,as required,required,,
+assembly,Jumper cables heat shrink and masking tape,,,Wiring and assembly,as required,required,,
